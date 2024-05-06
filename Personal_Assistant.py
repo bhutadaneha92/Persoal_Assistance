@@ -6,6 +6,11 @@ import webbrowser
 import os
 import sys
 
+'''pyttsx3 - It is a text-to-speech conversion library in Python. It works offline, and is compatible with both Python 2 and 3.
+
+speech recognition - computer speech recognition or speech-to-text, is a capability that enables a program to process human speech into a written format.
+
+sys - System specific parameters and functions'''
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
